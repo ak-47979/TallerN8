@@ -54,22 +54,22 @@ Las principales clases del sistema incluyen:
 ## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
+    ```bash 
+    git clone https://github.com/ak-47979/TallerN8.git
 
-```bash
-git clone https://github.com/ak-47979/TallerN8.git
+2. **Entrar en la carpeta del proyecto:**
+   ```bash
+   cd uce-edu-pa2-api-as
 
-2. Entrar en la carpeta del proyecto:
 
-```bash
-cd uce-edu-pa2-api-as
+3. **Compilar el proyecto:**
+   ```bash
+   mvn clean install
 
-3. Ejecutar el proyecto:
-
-```bash
-mvn quarkus:dev
-
+4. **Ejecutar el proyecto:**
+   ```bash
+   mvn quarkus:dev
 ---
-
 ## Generar documentación Javadoc
 1. Para generar la documentación automática:
 mvn javadoc:javadoc
@@ -87,7 +87,7 @@ target/reports/apidocs/index.html
 ✔ Manejo de pagos
 ✔ Estadísticas de ventas
 
-
+---
 
 # Ejemplos de beans usando los scopes en CDI:
 
